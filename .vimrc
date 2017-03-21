@@ -37,6 +37,11 @@ Plugin 'vimwiki/vimwiki'
 "
 Plugin 'guns/xterm-color-table.vim'
 
+"
+" Plugin: NERDtree
+"
+Plugin 'scrooloose/nerdtree'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -53,17 +58,31 @@ filetype plugin on
 " Put your non-Plugin stuff after this line
 
 "
-" Powerline 
+" Powerline (macOS)
 "
 
-"set guifont=Inconsolata\ for\ Powerline:h15
+""set guifont=Inconsolata\ for\ Powerline:h15
+"set guifont=Source\ Code\ Pro:h13
+"let g:Powerline_symbols = 'fancy'
+"set encoding=utf-8
+"set t_Co=256
+"set fillchars+=stl:\ ,stlnc:\
+""set term=xterm-256color
+"set term=xterm-256color-italic
+"set termencoding=utf-8
+
+"
+" Powerline (Ubuntu Mate)
+"
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+set laststatus=2 " Always show statusline
 set guifont=Source\ Code\ Pro:h13
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
 set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 "set term=xterm-256color
-set term=xterm-256color-italic
+"set term=xterm-256color-italic
 set termencoding=utf-8
 
 "
@@ -81,7 +100,11 @@ highlight Comment cterm=italic
 " vimwiki
 "
 "let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki'}]
-let g:vimwiki_list = [ { 'path': '~/SpiderOak\ Hive/vimwiki', 'path_html': '~/SpiderOak\ Hive/vimwiki_html', 'auto_export': 1 } ]
+let g:vimwiki_list = [
+						\{ 'path': '~/SpiderOak\ Hive/vimwiki/computercamp', 'path_html': '~/SpiderOak\ Hive/vimwiki_html/computercamp', 'auto_export': 1 },
+						\{ 'path': '~/SpiderOak\ Hive/vimwiki/moko.im', 'path_html': '~/SpiderOak\ Hive/vimwiki_html/moko.im', 'auto_export': 1 },
+						\{ 'path': '~/SpiderOak\ Hive/vimwiki/personal', 'path_html': '~/SpiderOak\ Hive/vimwiki_html/personal', 'auto_export': 1 }
+							\]
 let g:vimwiki_text_ignore_newline = 0
 
 "
@@ -333,3 +356,10 @@ hi x255_Grey93 ctermfg=255 guifg=#eeeeee "rgb=238,238,238
 " vimwiki Colors
 "
 hi link VimwikiHeader1 x196_Red1
+hi link VimwikiHeader2 x196_Red1
+hi link VimwikiHeader3 x196_Red1
+hi link VimwikiHeader4 x196_Red1
+hi link VimwikiHeader5 x196_Red1
+hi link VimwikiHeader6 x196_Red1
+
+hi link VimwikiCode x040_Green3
