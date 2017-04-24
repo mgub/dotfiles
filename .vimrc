@@ -90,7 +90,8 @@ set termencoding=utf-8
 "
 
 syntax on
-set ts=4
+set tabstop=4
+set shiftwidth=4
 
 " Enable Italics
 " Reference: https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/
@@ -105,7 +106,9 @@ let g:vimwiki_list = [
 						\{ 'path': '~/SpiderOak\ Hive/vimwiki/moko.im', 'path_html': '~/SpiderOak\ Hive/vimwiki_html/moko.im', 'auto_export': 1 },
 						\{ 'path': '~/SpiderOak\ Hive/vimwiki/personal', 'path_html': '~/SpiderOak\ Hive/vimwiki_html/personal', 'auto_export': 1 }
 							\]
-let g:vimwiki_text_ignore_newline = 0
+let g:vimwiki_text_ignore_newline = 0 " Causes newline to be interpreted as line break in HTML
+"let g:vimwiki_folding=1
+let g:vimwiki_folding='list'
 
 "
 " Colors
