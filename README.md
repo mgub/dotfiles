@@ -1,1 +1,1 @@
-# vimrc
+# Home Directory Configuration
