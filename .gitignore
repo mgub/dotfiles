@@ -12,7 +12,6 @@
 !.vim/_swap/.gitignore
 !.vimrc
 !.zshrc
-!testkeep/.gitkeep
 
 # References:
 # - https://github.com/davejamesmiller/dotfiles/
