@@ -1,18 +1,17 @@
 # By default, ignore everything except README and LICENSE.
 *
-!README.md
-!LICENSE
+!/README.md
+!/LICENSE
 
 # Whitelist
-!.gitignore
-!.tmux.conf
+!/.tmux.conf
 
 !/.vim
 /.vim/*
 !/.vim/tmp
 
-!.vimrc
-!.zshrc
+!/.vimrc
+!/.zshrc
 
 # References:
 # - https://github.com/davejamesmiller/dotfiles/
