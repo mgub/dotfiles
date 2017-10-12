@@ -7,17 +7,9 @@
 !.gitignore
 !.tmux.conf
 
-.vim/*
-!.vim/tmp/
-.vim/tmp/*
-!.vim/tmp/*
-!.vim/tmp/backup/*
-!.vim/tmp/backup/.gitkeep
-
-!.vim/tmp/swap/*
-!.vim/tmp/swap/.gitkeep
-!.vim/tmp/undo/*
-!.vim/tmp/undo/.gitkeep
+!/.vim
+/.vim/*
+!/.vim/tmp
 
 !.vimrc
 !.zshrc
