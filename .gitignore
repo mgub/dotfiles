@@ -7,7 +7,8 @@
 !/.gitignore
 !/.tmux.conf
 !/.vim
-!/.vim/_swap/hold
+/.vim/*
+!/.vim/_swap/
 !/.vimrc
 !/.zshrc
 
