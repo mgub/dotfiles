@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/mgub/Workspace/Checkout/gesso-python/gesso/gesso/api'
+let g:netrw_dirhist_2='/home/mgub/Workspace/Checkout/gesso-python/gesso/gesso'
+let g:netrw_dirhist_3='/home/mgub/Workspace/Checkout/gesso-python/gesso/gesso/data'
+let g:netrw_dirhist_4='/home/mgub/Workspace/Checkout/gesso-python/gesso/gesso'
+let g:netrw_dirhist_5='/home/mgub/Workspace/Checkout/gesso-python/gesso/gesso/api'

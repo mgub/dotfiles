@@ -7,13 +7,10 @@
 !.gitignore
 !.tmux.conf
 !.vim/
-.vim/*
-!.vim/_swap/
-!.vim/_swap/.gitignore
+!.vim/*
+!.vim/_swap/.gitkeep
 !.vimrc
 !.zshrc
-!testkeep/*
-!testkeep/.gitkeep
 
 # References:
 # - https://github.com/davejamesmiller/dotfiles/
