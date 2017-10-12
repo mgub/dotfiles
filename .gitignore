@@ -12,6 +12,7 @@
 !.vim/_swap/.gitignore
 !.vimrc
 !.zshrc
+!testkeep/*
 !testkeep/.gitkeep
 
 # References:
