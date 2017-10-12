@@ -8,7 +8,13 @@
 !.tmux.conf
 !.vim/
 !.vim/*
-!.vim/_swap/.gitkeep
+!.vim/tmp
+!.vim/tmp/backup/*
+!.vim/tmp/backup/.gitkeep
+!.vim/tmp/swap/*
+!.vim/tmp/swap/.gitkeep
+!.vim/tmp/undo/*
+!.vim/tmp/undo/.gitkeep
 !.vimrc
 !.zshrc
 
