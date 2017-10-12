@@ -6,11 +6,11 @@
 # Whitelist
 !/.tmux.conf
 
-!/.vim
-/.vim/
-/.vim/*
-!/.vim/tmp
-/.vim/tmp/*
+#!/.vim
+#/.vim/
+#/.vim/*
+#!/.vim/tmp
+#/.vim/tmp/*
 
 !/.vimrc
 !/.zshrc
